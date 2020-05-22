@@ -7,5 +7,6 @@ Contents
     curv.py: B-spline Curves to smooth the path generated from rrt.
       
     rrt.py: the basic rrt algorithm.
-    rrt_connect.py: rrt_connect algorithm
+    rrt_connect.py: rrt-connect algorithm
+    rrt_star.py: rrt-star algorithm
     
