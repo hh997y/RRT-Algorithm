@@ -3,7 +3,7 @@ RRT by Python.
 
 Contents
 --
-    map1.py: a .bmp file of map.
+    map1.py: a .bmp file of map(for test).
     curv.py: B-spline Curves to smooth the path generated from rrt.
       
     rrt.py: the basic rrt algorithm.
