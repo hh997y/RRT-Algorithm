@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 
-class Curv(object):
+class B_spline(object):
     def __init__(self, i_x, i_y):
         self.arg = [[-1, 3, -3, 1], [3, -6, 0, 4], [-3, 3, 3, 1], [1, 0, 0, 0]]
         self.x_new = []
@@ -44,7 +44,7 @@ if __name__ == '__main__':
     x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     y = [12, 2, 78, 12, 34, 23, 67, 87, 98, 10]
 
-    curv = Curv(x, y)
+    curv = B_spline(x, y)
     xnew, ynew = curv.get_curv()
 
     plt.plot(xnew, ynew)
