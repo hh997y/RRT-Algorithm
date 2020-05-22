@@ -281,8 +281,8 @@ if __name__ == '__main__':
         for i in tree1:
             t1x.append(i[0])
             t1y.append(i[1])
-        plt.scatter(t0x, t0y, color='lightcoral')
-        plt.scatter(t1x, t1y, color='lightsteelblue')
+        plt.scatter(t0x, t0y, color='lightcoral', s=5)
+        plt.scatter(t1x, t1y, color='lightsteelblue', s=5)
 
         # 合并path0，path1
         if path0[-1] == init:
