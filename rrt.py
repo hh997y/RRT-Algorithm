@@ -266,7 +266,7 @@ if __name__ == '__main__':
         # 用插值后的点集做控制点生成B样条曲线
         c = curv.B_spline(i_x, i_y)
         c_x,  c_y = c.get_curv()
-        plt.plot(c_x, c_y, color="red")
+        # plt.plot(c_x, c_y, color="red")
 
         m_map = m_map.swapaxes(0, 1)
         plt.imshow(m_map)
