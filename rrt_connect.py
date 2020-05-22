@@ -110,7 +110,7 @@ def pruning(path, step):
     new_path = [path[0]]
     i = 0
     j = 1
-    while i < len(path):
+    while i < len(path) - 2:
         if checkpath(path[i], path[j], step):
             if distance(path[j], path[-1]) < thresh_hold:
                 new_path.append(path[-1])
