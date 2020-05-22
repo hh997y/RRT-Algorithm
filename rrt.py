@@ -247,7 +247,7 @@ if __name__ == '__main__':
             tx.append(i[0])
             ty.append(i[1])
         plt.plot(x, y, color="blue")
-        plt.scatter(tx, ty, color='lightsteelblue')
+        plt.scatter(tx, ty, color='lightsteelblue', s=5)
 
         # 剪枝优化
         new_path, new_cost = pruning(path, step)
