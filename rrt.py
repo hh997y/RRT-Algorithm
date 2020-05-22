@@ -264,7 +264,7 @@ if __name__ == '__main__':
         i_y = [i[1] for i in i_path]
 
         # 用插值后的点集做控制点生成B样条曲线
-        c = curv.Curv(i_x, i_y)
+        c = curv.B_spline(i_x, i_y)
         c_x,  c_y = c.get_curv()
         plt.plot(c_x, c_y, color="red")
 
